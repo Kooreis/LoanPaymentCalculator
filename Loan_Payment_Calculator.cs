@@ -1,9 +1,8 @@
-using System;
+Console.Write("Enter loan amount: ");
+loanAmount = Convert.ToDouble(Console.ReadLine());
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        double loanAmount, annualInterestRate, monthlyInterestRate, loanLength, numberOfPayments, monthlyPayment, totalAmountPaid, totalInterestPaid;
-    }
-}
+Console.Write("Enter annual interest rate (APR): ");
+annualInterestRate = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Enter loan length in years: ");
+loanLength = Convert.ToDouble(Console.ReadLine());
