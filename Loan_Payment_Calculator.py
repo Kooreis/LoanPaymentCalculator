@@ -1,2 +1,2 @@
-def loan_payment_calculator():
-    principal = float(input("Enter the loan amount: "))
+rate_of_interest = float(input("Enter the annual interest rate (in %): "))
+    years = int(input("Enter the loan duration (in years): "))
